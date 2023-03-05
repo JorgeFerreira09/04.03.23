@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.border-white {
+    font-weight: 500;
+    font-size: 32px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.flex-container {
+     background-color: grey;
+     display: flex;
+     height: 525px;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+}
+.flex-item {
+    display: flex;
+    width: 350px ;
+    height: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-color: white;
+    font-size: 18px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}

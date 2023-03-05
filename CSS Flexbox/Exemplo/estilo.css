@@ -1,0 +1,24 @@
+.flex-container {
+    display: flex;
+    background-color: cornflowerblue;
+}
+
+.flex-container > div {
+    background-color: azure;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-style: normal;
+    font-weight: 400;    
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace
+}
